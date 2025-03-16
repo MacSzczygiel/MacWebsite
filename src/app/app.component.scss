@@ -1,0 +1,25 @@
+@import '../styling/colors.scss';
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.header {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    justify-content: flex-start;
+}
+
+.Site-content {
+    background-color: $Manny-grey;
+    flex-grow: 1;
+}
+
+footer {
+    background-image: linear-gradient(to bottom, #{$Manny-grey} 1%, #{$Manny-olive});
+    justify-content: end;
+}
+

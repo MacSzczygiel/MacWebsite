@@ -1,0 +1,49 @@
+@import '../../../styling/colors.scss';
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: $Manny-olive;
+}
+
+.logo {
+    cursor: pointer;
+    height: 50px;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-links {
+    list-style: none;
+    cursor: pointer;
+
+    li {
+        display: inline-block;
+        padding: 0px 20px;
+
+        a {
+            transition: all 0.3s ease 0s;
+
+            &:hover {
+                color: $Manny-grey;
+            }
+        }
+    }
+}
+
+button {
+    padding: 9px 25px;
+    background-color: $Manny-grey;
+    color: $Manny-lightGreen;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+
+    &:hover {
+        background-color: $Manny-lightGreen;
+        color: $Manny-grey;
+    }
+}

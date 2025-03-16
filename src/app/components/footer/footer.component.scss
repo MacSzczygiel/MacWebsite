@@ -1,0 +1,32 @@
+.Site-footer {
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo {
+    justify-content: flex-start;
+    height: 30px;
+    margin-right: 20px;
+}
+
+.footer-links {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    i {
+        cursor: pointer;
+        font-size: 24px;
+
+    }
+
+}
+.additions {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
